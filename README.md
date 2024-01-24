@@ -23,7 +23,7 @@ After cloning the repo, you will need a server to serve the resources of your ga
 ## Important notes about importmap
 
 - You **MUST** use the `phaser.esm` build of Phaser. This is the only build that exports ES Modules that importmap supports.
-- Phaser v3.70.0 was the first version to export an ESM bundle. You cannot use earlier versions with this template.
+- Phaser v3.60.0 was the first version to export an ESM bundle. You cannot use earlier versions with this template.
 - The 'name' you give in the importmap (in your `index.html`) should match exactly that used in the `import` declarations within your game code.
 - You can store the Phaser ESM build locally if you'd rather not use the CDN. Simply put the `phaser.esm.js` in your local folder structure and reference that inside your HTML like this: 
 
