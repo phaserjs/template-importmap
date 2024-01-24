@@ -4,7 +4,7 @@ This is a Phaser 3 project template that uses [importmap](https://developer.mozi
 
 An import map is a JSON object that allows developers to control how the browser resolves module specifiers when importing JavaScript modules. It provides a mapping between the text used as the module specifier in an import statement or import() operator, and the corresponding value that will replace the text when resolving the specifier. The JSON object must conform to the Import map JSON representation format.
 
-An import map is used to resolve module specifiers in static and dynamic imports, and therefore must be declared and processed before any <script> elements that import modules using specifiers declared in the map.
+An import map is used to resolve module specifiers in static and dynamic imports, and therefore must be declared and processed before any `<script>` elements that `import` modules using specifiers declared in the map.
 
 importmap a baseline 2023 feature. Please [see MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap) for details about browser compatibility.
 
@@ -16,9 +16,22 @@ This template has been updated for:
 
 ![screenshot](screenshot.png)
 
+## Requirements
+
+[Node.js](https://nodejs.org) is required to install dependencies and run scripts via `npm` (if you want to use the development server).
+
+## Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm install` | Install project dependencies |
+| `npm run dev` | Launch a development web server |
+
 ## Writing Code
 
-After cloning the repo, you will need a server to serve the resources of your game. You can try using LiveServer, which is an extension for Visual Studio Code, or any other server of your choice. For more information, refer to the [Phaser Getting Started](https://phaser.io/tutorials/getting-started-phaser3) guide.
+After cloning the repo, you will need a server to serve the resources of your game. This template provides your own server with hot-reloading. To start it, simply run `npm run dev`.
+
+The local development server runs on `http://localhost:3000` by default.
 
 ## Important notes about importmap
 
@@ -60,6 +73,8 @@ We love to see what developers like you create with Phaser! It really motivates 
 **Discord:** Join us on [Discord](https://discord.gg/phaser)<br />
 **Code:** 2000+ [Examples](https://labs.phaser.io)<br />
 **Read:** The [Phaser World](https://phaser.io/community/newsletter) Newsletter<br />
+
+Tell us about your game in [games@phaser.io](mailto:games@phaser.io)!
 
 Created by [Phaser Studio](mailto:support@phaser.io). Powered by coffee, anime, pixels, and love.
 
