@@ -14,6 +14,19 @@ This template has been updated for:
 
 After cloning the repo, you will need a server to serve the resources of your game. You can try using LiveServer, which is an extension for Visual Studio Code, or any other server of your choice. For more information, refer to the [Phaser Getting Started](https://phaser.io/tutorials/getting-started-phaser3) guide.
 
+## About importmap
+
+- You **MUST** use the phaser.esm.build to have modules imports.
+- The 'name' you give in the importmap (in your index.html) is what you must use in your code.
+- You can have the build locally if you don't want to use the CDN, only put your phaser.esm.js in your local folder and link it inside your HTML like this: 
+```js
+{
+    "imports": {
+        "phaser": "./my-local-folder/phaser.esm.js"
+    }
+}
+```
+
 ## Template Project Structure
 
 We have provided a default project structure to get you started. This is as follows:
