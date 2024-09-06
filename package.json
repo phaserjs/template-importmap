@@ -1,6 +1,6 @@
 {
   "name": "template-import-map",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "This is a Phaser 3 project template that uses [importmap](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap).",
   "repository": {
     "type": "git",
