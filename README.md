@@ -12,7 +12,7 @@ importmap a baseline 2023 feature. Please [see MDN](https://developer.mozilla.or
 
 This template has been updated for:
 
-- [Phaser 3.86.0](https://github.com/phaserjs/phaser)
+- [Phaser 3.87.0](https://github.com/phaserjs/phaser)
 
 ![screenshot](screenshot.png)
 
