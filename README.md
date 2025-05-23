@@ -12,7 +12,7 @@ importmap a baseline 2023 feature. Please [see MDN](https://developer.mozilla.or
 
 This template has been updated for:
 
-- [Phaser 3.88.0](https://github.com/phaserjs/phaser)
+- [Phaser 3.90.0](https://github.com/phaserjs/phaser)
 
 ![screenshot](screenshot.png)
 
@@ -78,6 +78,6 @@ Tell us about your game in [games@phaser.io](mailto:games@phaser.io)!
 
 Created by [Phaser Studio](mailto:support@phaser.io). Powered by coffee, anime, pixels, and love.
 
-The Phaser logo and characters are &copy; 2011 - 2025 Phaser Studio Inc.
+The Phaser logo and characters are &copy; 2011 - 2024 Phaser Studio Inc.
 
 All rights reserved.
